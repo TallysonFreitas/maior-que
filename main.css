@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'EB Garamond', serif;
+    color: rgb(236, 236, 236);
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1{
+    font: normal bolder 4em 'Jost', sans-serif;
+}
+
+#azul{
+    background-color: #7786E6;  /*#2638AE*/
+}
+
+#azul .centro{
+    background-color: #2638AE;
+}
+
+#vermelho{
+    background-color: #E66855;  /*#AD220C*/
+}
+
+#vermelho .centro{
+    background-color:#AD220C;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+}
+
+.centro{
+    margin-top: 20px;
+    width: 50%;
+    height: 30vh;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.123);
+}
+
+.centro h2{
+    font: normal bolder 1.5em 'Jost', sans-serif;
+}
+
+footer{
+    background-color: #C5E172;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer button{
+    font: normal 1.2em 'Jost', sans-serif;
+    padding: 15px 40px;
+    color: white;
+    background-color: #66972a;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.103);
+    cursor: pointer;
+}
+
+footer button:hover{
+    background-color:#85bd41;
+}
