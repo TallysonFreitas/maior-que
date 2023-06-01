@@ -14,7 +14,7 @@
             <div class="centro">
                 <h2>Maior</h2>
                 <input required placeholder="Digite o maior numero aqui" type="number" name="maior" id="maiorid">
-                <button type="submit">Enviar</button>
+                <p class="aviso">Esse deve ser o maior numero</p>
             </div>
         </div>
         <div id="vermelho" class="container">
@@ -22,13 +22,13 @@
             <div class="centro">
                 <h2>Menor</h2>
                 <input required placeholder="Digite o menor numero aqui" type="number" name="menor" id="menorid">
-                <button type="submit">Enviar</button>
+                <p class="aviso">Esse deve ser o menor numero</p>
             </div>
         </div>
     </main>
     <footer>
         <p id="valores">ex</p>
-        <button type="submit" onclick="validar()">Avancar</button>
+        <button type="submit" onclick="validar(maior,menor)">Avancar</button>
     </footer>
     <script src="script.js"></script>
 </body>

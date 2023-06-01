@@ -49,9 +49,10 @@ main{
 .centro{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
+    gap: 5px;
     width: 50%;
     height: 30vh;
     padding: 10px;
@@ -73,6 +74,13 @@ main{
     background-color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.centro p {
+    padding: 3px 15px;
+    background-color: #E66855;
+    display: none;
     border-radius: 5px;
 }
 
