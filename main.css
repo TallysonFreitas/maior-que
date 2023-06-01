@@ -82,6 +82,8 @@ main{
     background-color: #E66855;
     display: none;
     border-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
 }
 
 footer{
